@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/facebookexperimental/fb-vscode/master/extensions/configuration-editing/schemas/devContainer.schema.json",
   "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "fish"
+  },
   "extensions": [
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
